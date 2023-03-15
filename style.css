@@ -1,3 +1,7 @@
 body{
     background-color: darkorchid;
 }
+#res{
+    font-size: large;
+    color: white;
+}
