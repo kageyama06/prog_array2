@@ -1,5 +1,12 @@
-let cidade = ['Tijucas','Itapema',1,2,'@','#']  //variável global do tipo array
+let valor_cidade = []  //variável global do tipo array
 
 function inserir(){
-    console.log(cidade)
+    let cidade = document.getElementById('cidade').value
+    valor_cidade.push(cidade)
+    console.log(valor_cidade)
+}
+
+function excluir(){
+    valor_cidade.pop(cidade)
+    console.log(valor_cidade)
 }
